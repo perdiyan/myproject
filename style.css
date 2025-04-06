@@ -1,0 +1,93 @@
+/* Base Styles */
+body {
+    font-family: 'Comic Neue', cursive;
+    margin: 0;
+    background: #0f0f0f;
+    color: white;
+}
+
+header {
+    padding: 20px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background: #1a1a1a;
+}
+
+.logo {
+    height: 50px;
+}
+
+nav a {
+    color: #ffd700;
+    text-decoration: none;
+    margin: 0 15px;
+    font-size: 1.2em;
+}
+
+.hero {
+    text-align: center;
+    padding: 100px 20px;
+    background: linear-gradient(45deg, #ff00ff, #00ffff);
+}
+
+.cta-button {
+    background: #ff00ff;
+    color: white;
+    padding: 15px 30px;
+    border-radius: 25px;
+    text-decoration: none;
+    font-size: 1.2em;
+    margin-top: 20px;
+    display: inline-block;
+}
+
+.section {
+    padding: 50px 20px;
+}
+
+.tokenomics-grid {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 20px;
+    max-width: 1200px;
+    margin: 0 auto;
+}
+
+.card {
+    background: #1a1a1a;
+    padding: 20px;
+    border-radius: 15px;
+    text-align: center;
+}
+
+.roadmap-timeline {
+    max-width: 800px;
+    margin: 0 auto;
+}
+
+.timeline-item {
+    background: #1a1a1a;
+    padding: 20px;
+    margin: 20px 0;
+    border-radius: 15px;
+}
+
+footer {
+    text-align: center;
+    padding: 30px;
+    background: #1a1a1a;
+}
+
+.social-links a {
+    color: #00ffff;
+    margin: 0 10px;
+    text-decoration: none;
+}
+
+/* Responsive Design */
+@media (max-width: 768px) {
+    .tokenomics-grid {
+        grid-template-columns: 1fr;
+    }
+}
